@@ -1,1 +1,53 @@
-Uplodad  the project proposal here
+SE (F&P) Project Plan Template 
+Note: this is a “living document”, meaning its content will change with the implementation of the project. Use it to plan the project to ensure on time delivery of each project deliverable. Remove this text and the descriptive paragraphs in each section including this line (given in blue) stating what to do before you add this to your repository or turn it in to your instructor.
+
+
+Project Title
+Online voting system
+Document
+About this app
+Creation date
+12-9-2015
+Created By
+Bharath
+Client 
+All the voters
+Brief problem statement 
+  The present system of elections is manual.It results in lot of time consumption and money wastage.We can reduce this using this system.
+
+Development Environment
+Progrmming languages like java or php.
+
+Replace this text and the instructions below with your statement in black.
+(Identify any and all tools that will be used during the development of the projects.  This should include the development environment (i.e., Eclipse), programming language, collaboration tools, and any other tools in creating project documentation and the application.)
+Milestone Schedule
+
+
+Replace this text and the instructions below with your statement in black.
+(Generate a high level milestone schedule that will guide your project.  Include both those items that are deliverables (as specified in the syllabus) as well as the tasks that you will need to do to complete those deliverables (e.g., draft complete, code complete, testing complete, etc.).  For each milestone, identify which release it pertains to.  The first two lines are given as examples.)
+
+Milestone
+Due Date
+Release
+Deliverable?
+Draft requirements/Documentation
+15/09/2015
+R1
+No
+Reading and Understanding of Source Files  
+30/09/2015
+R1
+No
+Prototype of online voting system
+15/10/2015
+Pre-Beta
+Yes
+First Version of online voting system
+30/10/2015
+Beta
+Yes
+Second Version/Final of online voting system
+30/11/2015
+Final
+Yes
+
