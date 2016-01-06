@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jumbled letters</title>
+</head>
+<style type="text/css">
+	.ss
+	{
+	  font-size: 25px;
+	  position: absolute;
+	  left: 450px;
+	  top: 170px;
+      height: 150px;
+      width: 500px;
+	}
+</style>
+<body background="kk.jpg">
+<div class="ss">
+     <center><h2>FIX THE WORD</h2></center>
+     <p>
+     <center><h3>Select the language</h3>
+		<select  id='ll'>
+		    <option value=' '></option>
+			<option value='telugu'> Telugu </option>
+			<option value='english'> English </option>
+		</select>
+		<button  onclick="check1()">submit</button>
+		</center>
+</div>
+		<script type="text/javascript">
+		function check1()
+		{
+          if(document.getElementById('ll').value=="telugu")
+          {
+          	window.open ('telugu.html','_self',false);
+          }
+          if(document.getElementById('ll').value=="english")
+          {
+          	window.open ('english.html','_self',false);
+          }
+           
+		}
+
+		</script>
+
+</body>
+</html>

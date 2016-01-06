@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Fix The Word!!</title>
+
+    <link rel="stylesheet" href="assets/css/lumen-bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubblegum+Sans">
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+	 <section class="main-section">
+		<div class="main-wrapper">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-3">
+					<h1 class="text-center">Fix the word(ENGLISH & TELUGU)!</h1>
+
+					 <div class="start-game-btn-wrapper text-center">
+						<button class="btn btn-success launch-game">
+							<span class="fa fa-car"></span> Start
+						</button>
+					</div>
+
+					<div class="game">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="lead">
+								<span class="timer">02:00</span>
+								<span class="rem-time">minutes remaining</span>
+							</p>
+						</div>
+						<div class="col-sm-8">
+							<h3>Jumbled word: <strong class="jumbled-word"></strong></h3>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="alert alert-success alert-dismissible text-center" role="alert">
+  								<strong class="success-msg"></strong>
+							</div>
+
+							<div class="alert alert-danger alert-dismissible text-center" role="alert">
+  								<strong class="warning-msg"></strong>
+							</div>
+						</div>
+					</div>
+
+
+						<div class="form-group">
+							<input type="text" name="user-answer" class="form-control" placeholder="Enter your answer">
+						</div>
+						<button class="btn btn-success next" disabled>Next</button>
+						<button class="btn btn-danger clear">Clear Field</button>
+						<button class="btn btn-info hint pull-right">Hint</button>
+						<p class="pull-right hint-msg"><em>Word begins with:</em>
+							<strong class="first-letter"></strong><br>
+							<em>Ends with:</em> <strong class="last-letter"></strong></p>
+
+						<div class="result">
+
+						<div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModal" aria-hidden="true">
+  						<div class="modal-dialog">
+    						<div class="modal-content">
+      							<div class="modal-header">
+        							<h4 class="modal-title">Your Score</h4>
+      							</div>
+
+      							<div class="modal-body">
+      								<div id="resultText">
+      									<h4 class="result_title"> </h4>
+      									<p class="additional_notes"></p>
+
+      									<div class="word-list">
+      										<p>The words were:</p>
+      									</div>
+
+      									<div>
+      										<p><small><strong>You can click on each word to find out it's meaning.</strong></small></p>
+      									</div>
+      								</div>
+      							</div>
+
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default close-modal" data-dismiss="modal">Close</button>
+        							<button type="button" class="btn btn-primary replay">Play Again</button>
+      							</div>
+    						</div>
+ 		 				</div>
+						</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+    </div>
+
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script> 
+    <script src="assets/js/wordDatabase1.js"></script>
+    <script src="assets/js/game1.js"></script>
+
+  </body>
+</html>
